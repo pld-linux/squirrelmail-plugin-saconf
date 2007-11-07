@@ -1,7 +1,7 @@
 %define		_plugin	saconf
 %define		mversion	1.2.7
-Summary:	SAConf is a SquirrelMail plugin that allows users to configure the behavior of the SpamAssassin mail filter
-Summary(pl.UTF-8):	Wtyczka dla Squirrelmail pozwalająca kontrolować zachowanie SpamAssassina.
+Summary:	Squirrelmail plugin that allows to configure the behavior of the SpamAssassin
+Summary(pl.UTF-8):	Wtyczka dla Squirrelmail pozwalająca kontrolować zachowanie SpamAssassina
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	1.0
 Release:	1
