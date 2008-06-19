@@ -1,7 +1,7 @@
 %define		_plugin	saconf
 %define		mversion	1.2.7
-Summary:	Squirrelmail plugin that allows to configure the behavior of the SpamAssassin
-Summary(pl.UTF-8):	Wtyczka dla Squirrelmail pozwalająca kontrolować zachowanie SpamAssassina
+Summary:	SquirrelMail plugin that allows to configure the behavior of the SpamAssassin
+Summary(pl.UTF-8):	Wtyczka dla SquirrelMaila pozwalająca kontrolować zachowanie SpamAssassina
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	1.0
 Release:	1
@@ -24,13 +24,14 @@ behavior of the SpamAssassin mail filter. Specifically SAConf can
 modify a user's spam threshold value, whitelist contents, and
 destination folder for spam. SAConf connects to the mail server via
 FTP and modifies the user's .procmailrc and .spamassassin/user_prefs
-files. FTP support in PHP is required to use SAConf..
+files. FTP support in PHP is required to use SAConf.
 
 %description -l pl.UTF-8
-Ta wtyczka umożliwia kontrolowanie zachowania SpamAssassina
-(punktowanie, biała lista, folder spamu) poprzez modyfikację plików
-.procmailrc i .spamassassin/user_prefs w katalogu użytkownika.
-Wymagana jest obsługa prokotołu FTP w PHP.
+SAConf to wtyczka SquirrelMaila umożliwiająca kontrolowanie zachowania
+SpamAssassina (w szczególności wartości progowej, zawartości białej
+listy i folderu na spam) poprzez modyfikację plików .procmailrc i
+.spamassassin/user_prefs w katalogu użytkownika. Wymagana jest obsługa
+prokotołu FTP w PHP.
 
 %prep
 %setup -q -n %{_plugin}
